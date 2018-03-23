@@ -1,0 +1,339 @@
+#styled_row {
+	height: 120vh !important;
+	display: flex; justify-content: center; align-items:center !important;
+	flex-direction: column;
+}
+
+#styled_row2 {
+	height: 100vh !important;
+	display: flex; justify-content: center; align-items:center !important;
+}
+
+
+
+.form-group {
+	margin: 10px !important;
+}
+
+.index-row {
+	margin-top: 10px;
+}
+
+.styled-col {
+	padding: 10px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px lightgrey;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.all-people {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.person {
+	border: 1px solid lightgrey;
+	padding: 10px;
+	box-shadow: 0px 0px 5px lightgrey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+	background-color: #f2f2f2;
+}
+
+.person-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.person-flex img {
+	border-radius: 50px;
+	height: 80px;
+	width: 80px;
+}
+
+.user_name {
+	margin-bottom: 0;
+}
+
+.specific-user-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*===============================================
+					FRIENDS
+================================================*/
+
+
+.friends-list {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content: space-around;
+  	align-content: flex-start;
+}
+
+.filler {
+	order: 9999999;
+	border-color: transparent;
+	min-height: 0;
+	height: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.friend {
+	display: flex;
+	height: auto;
+	width: 75px;
+}
+
+.friend-pic {
+	height: 75px;
+}
+
+/*===============================================
+				NOTIFICATIONS
+================================================*/
+
+.friend_request {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 0px 10px lightgrey;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgba(153, 255, 153, 0.3);
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.request_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 10px;
+	flex-wrap: wrap;
+}
+
+.request_content p {
+	margin-bottom: 0px;
+}
+
+.request_buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+
+.request_buttons button {
+	margin-left: 10px;
+}
+
+/*===============================================
+					POST
+================================================*/
+
+.post {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+.post_notifications {
+	border: 1px solid grey;
+	box-shadow: 0px 0px 5px grey;
+	padding: 10px;
+	background-color: rgba(255, 255, 0, 0.3);
+	margin-bottom: 10px;
+}
+
+/*===============================================
+					COMMENTS
+================================================*/
+
+.all_comments {
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 0px 10px lightgrey;
+}
+
+#comment_textarea {
+	border: 1px solid grey;
+	box-shadow: 0 0 2px grey;
+}
+
+.comment_notifications {
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 0px 10px lightgrey;
+	background-color: rgba(255, 0, 0, 0.1);
+}
+
+/*===============================================
+					MESSAGES
+================================================*/
+
+.msg-container {
+	border: 1px solid grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	margin: 5px;
+	background-color: rgba(0, 0, 0,0.05);
+	box-shadow: 0px 0px 10px grey;
+	border-radius: 5px;
+}
+
+.msg-image {
+	height: 75px;
+	width: 75px;
+	border-radius: 100px;
+	overflow: hidden;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 5px grey;
+}
+
+.me {
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid #b380ff;
+	text-align: right;
+	background-color: rgba(0, 0, 153, 0.5);
+	color: white;
+}
+
+.you {
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid #b380ff;
+	text-align: left;
+	background-color: rgba(0, 0, 153, 0.2);
+	color: white;
+}
+
+.chat {
+	background: rgba(255, 255, 255, 0.3);
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 5px grey;
+}
+
+.chat_content {
+	height: 400px;
+	overflow: auto;
+	border: 1px solid black;
+	padding: 10px;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 5px grey;
+	background: rgba(0, 0, 0, 0.15);
+	margin: 10px;
+	border-radius: 5px;
+}
+
+
+#chat_text {
+	border: 1px solid grey;
+}
+
+.msg_notification_circle {
+	position: absolute;
+	bottom: -5px;
+	right: 30px;
+	z-index: 99;
+	padding: 5px 10px;
+	font-size: 12px;
+	background: red;
+	border-radius: 100px;
+	color: white;
+	cursor: default;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 5px grey;
+}
+
+/*===============================================
+					SEARCH BAR
+================================================*/
+
+#result {
+	position: absolute;
+	top: 90%;
+	z-index: 99;
+	list-style-type: none;
+	width: 290px;
+	padding: 0;
+	box-shadow: 0px 0px 2px black;
+}
+
+#result > a {
+	border-bottom: 1px solid black;
+	background-color: white;
+	padding: 5px;
+	cursor: pointer;
+	display: block;
+
+}
+
+#result > li {
+	border-bottom: 1px solid black;
+	background-color: white;
+	padding: 5px;
+	cursor: pointer;
+	display: block;
+
+}
+
+.search_box {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+
+}
+
+/*===============================================
+					PROFILE PIC
+================================================*/
+
+#profile_pic {
+	height: 150px;
+	width: auto;
+
+}
+
+#status-msg {
+	display: none;
+}
+
+#status-container {
+	position: fixed;
+	top: 20px;
+	z-index: 9999999999;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+#profile_picture { /*this is the one that is displayed always when you enter profile.php?user site*/
+	height: 150px;
+	width: auto;
+}
